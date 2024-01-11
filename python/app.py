@@ -6,11 +6,5 @@ app = Flask(__name__)
 def hello():
     return 'Hello, Dockerized Python Application!'
 
-# Health check endpoint
-@app.route('/health_check')
-def health_check():
-    return 'OK'
-
-
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
