@@ -6,7 +6,6 @@ const port = 3000;
 app.get('/', (req, res) => {
   res.send('Hello, World!');
 });
-hello
 
 app.listen(port, () => {
   console.log(`Server is listening on port ${port}`);
